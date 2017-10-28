@@ -2,6 +2,7 @@
 
 namespace Parser\Controllers;
 
+
 use Parser\Models\Parser;
 use Parser\Models\ParserCrawler;
 

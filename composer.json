@@ -1,0 +1,19 @@
+{
+    "name": "pro/parsr",
+    "description": "parser oop",
+    "authors": [
+        {
+            "name": "Serhii Kosyouk",
+            "email": "monstrpro@gmail.com"
+        }
+    ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "sunra/php-simple-html-dom-parser": "1.5.2",
+    "twig/twig": "1.*"
+  }
+}

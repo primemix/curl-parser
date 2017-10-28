@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Form Search</h3>
+<table class="brd">
+    <tr>
+        <form method="post">
+            <td><input type="text" name="word" value="{{word}}"></td>
+            <td><input type="submit" name="search" value="search"></td>
+        </form>
+    </tr>
+    <tr>
+        <td>{{data}}</td>
+    </tr>
+</table>
+{% endblock %}

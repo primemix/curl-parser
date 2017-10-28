@@ -1,0 +1,76 @@
+html,body{margin:0;padding:0;}
+#main {
+    display: block;
+    margin: 7px;
+}
+#nav2, #nav2 li {
+    margin: 0;
+    padding: 0;
+}
+#nav2 {
+    background: rgb(92,135,178);
+}
+#nav2 li {
+    display: inline-block;
+    text-align: center;
+}
+#nav2 a {
+    display: block;
+    padding: 15px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+#nav2 a:hover {
+    background: rgb(67,101,136);
+}
+#nav2 li.right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+table {
+    border-collapse: collapse;
+}
+table th,
+table td {
+    padding: 8px 8px;
+}
+table.brd th,
+table.brd td {
+    border: 1px solid rgba(146, 146, 146, 0.27);
+}
+#footer {
+    display: inline-block;
+    margin: 30px;
+    font-size: 0.9em;
+}
+#footer a {
+    color:rgb(92,135,178);
+    text-decoration:none;
+    font-size: 0.9em;
+}
+hr {
+    border: none;
+    background-color: #ddddff;
+    height: 1px;
+}
+a:link {
+    text-decoration: none;
+    color:rgb(92,135,178);
+}
+a:visited {
+    text-decoration: none;
+    color:rgb(92,135,178);
+}
+a:active {
+    text-decoration: none;
+    color:rgb(92,135,178);
+}
+a:hover {
+    text-decoration: none;
+    color:rgb(92,135,178);
+}
+h4 a {
+    text-decoration: none;
+    color:rgb(92,135,178);
+}

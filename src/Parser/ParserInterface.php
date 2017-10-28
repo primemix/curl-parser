@@ -2,20 +2,22 @@
 
 namespace Parser;
 
+/**
+ * Interface ParserInterface
+ * @package Parser
+ */
 interface ParserInterface
 {
     /**
-     * @return string Html Dom Document
+     * @param $url string remote server
+     * @param $searchWord string search word
+     * @return string result
      */
-    public function getDomDocument();
+    public function getResponseRemoteServer(string $url, string $searchWord): string ;
 
     /**
-     * @return boolean Response from remote server (true | false)
+     * @param $HtmlDomDocument
+     * @return array
      */
-    public function getResponseFromRemoteServer();
-
-    /**
-     * @return integer count result
-     */
-    public function countResult();
+    public function countResult($HtmlDomDocument);
 }

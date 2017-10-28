@@ -1,15 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
-<h3>Form Search</h3>
+<h3></h3>
 <table class="brd">
     <tr>
         <form method="post">
-            <td><input type="text" name="word" value="{{word}}"></td>
-            <td><input type="submit" name="search" value="search"></td>
+            <td><input type="text" name="word" value="{{word}}"> <input type="submit" name="search" value="search"></td>
         </form>
     </tr>
     <tr>
-        <td>{{data}}</td>
+        <td>{{data}} result: {{count}}</td>
     </tr>
 </table>
 {% endblock %}

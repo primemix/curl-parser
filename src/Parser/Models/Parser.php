@@ -42,7 +42,7 @@ class Parser implements ParserInterface
         curl_setopt($ch, CURLOPT_COOKIEFILE,  dirname(__FILE__).'/../../../web/cookie/cookie.txt');
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS,
-            'do=search&subaction=search&search_start=0&full_search=0&result_from=1&result_from=1&story=' . $searchWord . '');
+            '# here is post query #' . $searchWord . '');
         $out = iconv('windows-1251', 'UTF-8', curl_exec($ch));
 
         if (!$out) {

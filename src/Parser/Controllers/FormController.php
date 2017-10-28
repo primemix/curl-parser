@@ -16,7 +16,7 @@ class FormController
      */
     public function actionIndex()
     {
-        $url = 'http://filmitorrent.org/';
+        $url = '#';
         if (isset($_POST['word'])) {
             $data = $_POST['word'];
             
